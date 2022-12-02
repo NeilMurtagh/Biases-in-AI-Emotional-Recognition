@@ -31,7 +31,7 @@ Of course, defining emotion itself comes with a long history of debate from befo
 
 Usually, models focus on areas of the face that show most contortion, i.e., around the mouth and eyes (Raut 2018). ML can be trained thus to recognize patterns of these features for classification. Further, in videos, changes in the position of facial landmark muscles are also identified. The following image shows some of the usual landmarks used by most models (Raut).
 
-![emotional_recognition](bild2.png)
+![emotional_recognition](Bild2.png)
 
 FER2013 was designed for a competition to promote research in FER systems, and displays the varied spectrum of differing natural conditions. It contains 35,887 images of 7 expressible emotions (fear, contempt, disgust, anger, surprise, sad, happy, and neutral) in an unbalanced distribution. There is an increasing amount of research and development in this area. Human performance on the dataset
 
@@ -76,4 +76,4 @@ In order to test the model and the FER-2013 dataset it was trained on, we adapte
 
 expressions. The result is given back as a bar plot. The facial emotion which scores the highest is saved and added to a counter. This counter is finally used to calculate accuracy and misidentification rates.
 
-![emotional_recognition](bild2.png)
+![emotional_recognition](Bild2.png)
