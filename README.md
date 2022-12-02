@@ -23,4 +23,4 @@ Of course, defining emotion itself comes with a long history of debate from befo
 Usually, models focus on areas of the face that show most contortion, i.e., around the mouth and eyes (Raut 2018). ML can be trained thus to recognize patterns of these features for classification. Further, in videos, changes in the position of facial landmark muscles are also identified. The following image shows some of the usual landmarks used by most models (Raut).Introduction
 
 
-![cool_website](getty_503426092_342208.jpg)
+![emotional_recognition](image.jpg)
