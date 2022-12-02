@@ -4,7 +4,7 @@
 
 
 ## Abstract
-Algorithmic facial emotional recognition has been under scrutiny for some time. Its potential use cases reach from HR and online shopping to security or healthcare. But its potential pitfalls are equally manifold. This study investigates racial biases in a simple facial emotional recognition model trained by the FER-2013 dataset. Yet, we are not able to sustain our hypotheses that the model is less accurate for positively recognizing minorities or that there are discriminating patterns within the False Positives. Reasons for that might be …
+Algorithmic facial emotional recognition has been under scrutiny for some time. Its potential use cases reach from HR and online shopping to security or healthcare. But its potential pitfalls are equally manifold. This study investigates racial biases in a simple facial emotional recognition model trained by the FER-2013 dataset. Yet, we are not able to sustain our hypotheses that the model is less accurate for positively recognizing minorities or that there are discriminating patterns within the False Positives. Reasons for that might be low accuracy, flaws in the dataset or sorting difficulties. Nevertheless, the algorithm is better at recognizing anger, fear, sadness and surprise for non-minorities.
 
 ## Introduction
 The importance of facial emotional recognition (FER) is well-acknowledged in fundamental human communication. Machine learning algorithms can be trained and tested on suitable datasets to carry out the process of recognizing emotions. FER technology belongs to the multidisciplinary family of “affective computing” that is often attributed towards the advent of Artificial Intelligence. Cameras and allied technological changes have provided impetus for these algorithms to become crucial.
@@ -24,7 +24,7 @@ Human-computer interaction as a field is greatly supplemented by emotional recog
 
 Of course, defining emotion itself comes with a long history of debate from before the time of Greek philosophers. Most definitions refer to it as an impulse that prompts behaviour in an organism adapted to meet its needs. Human emotions are sometimes very subtle and expressions minimal. Psychologists, neuroscientists and other behavioural research scholars have not yet agreed upon universal features of specific emotions, and this serves as a first caution to the usage of FER systems.
 
-Usually, models focus on areas of the face that show most contortion, i.e., around the mouth and eyes (Raut 2018). ML can be trained thus to recognize patterns of these features for classification. Further, in videos, changes in the position of facial landmark muscles are also identified. The following image shows some of the usual landmarks used by most models (Raut).Introduction
+Usually, models focus on areas of the face that show most contortion, i.e., around the mouth and eyes (Raut 2018). ML can be trained thus to recognize patterns of these features for classification. Further, in videos, changes in the position of facial landmark muscles are also identified. The following image shows some of the usual landmarks used by most models (Raut).
 
 
 ![emotional_recognition](image.jpg)
