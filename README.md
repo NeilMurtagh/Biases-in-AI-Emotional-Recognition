@@ -113,3 +113,9 @@ One solution that might be explored, due to the wide array of emotions and emoti
 ![emotional_recognition](anger (888).png) ![emotional_recognition](images (100)_face.png)
 Figure 1 - anger                                              Figure 2 - Surprise
 
+To return to our original hypothesis, it clearly seems there is no bias against minorities when using this algorithm to detect emotions, and the results might actually be skewed in their favour. We can emit several hypotheses to explain this. The first is that the reason may lie with the dataset. While
+
+this dataset is large, it might be perfectly even in distribution between minorities and non-minorities. Perhaps minorities are overrepresented in the training part of the dataset, making the program more reliable in their emotional recognition.
+
+We could provide a second hypotheses, this time concerning the inferior performance on minorities for a select set of emotions. It could be due to imperfections in the original photo, that make it harder to read for the program (for example items obscuring parts of the face, or an angle that hides a part of it). In these cases, the aforementioned recognitions patterns of a human face cannot be recognized, as they rely on detecting front-facing facial features (lips, eyes, nose, etc).
+
