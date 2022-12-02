@@ -1,5 +1,8 @@
 # Biases in AI Emotional Recognition
 
+
+
+
 ## Abstract
 Algorithmic facial emotional recognition has been under scrutiny for some time. Its potential use cases reach from HR and online shopping to security or healthcare. But its potential pitfalls are equally manifold. This study investigates racial biases in a simple facial emotional recognition model trained by the FER-2013 dataset. Yet, we are not able to sustain our hypotheses that the model is less accurate for positively recognizing minorities or that there are discriminating patterns within the False Positives. Reasons for that might be …
 
@@ -16,6 +19,7 @@ FER technology seeks to achieve categorization of emotions from images. Deep lea
 · Other
 
 Yet, accuracy and robustness still remain sought-after, due to variations in the faces (heterogeneous features, cultural differences of expressions, etc.) as well as conditions of the images (natural conditions exhibit diverse poses and lighting) (Khaireddin and Chen 2021).
+
 Human-computer interaction as a field is greatly supplemented by emotional recognition. The process has three important steps: face detection, feature extraction and classification module (Song 2021). Machines first need to detect the faces from the environment around it. Most FER models rely on colouring the images into grayscale, which we also do in our code. This allows for a better performance. Furthermore, either window-based or pixel-based techniques are utilised (Khan 2022).
 
 Of course, defining emotion itself comes with a long history of debate from before the time of Greek philosophers. Most definitions refer to it as an impulse that prompts behaviour in an organism adapted to meet its needs. Human emotions are sometimes very subtle and expressions minimal. Psychologists, neuroscientists and other behavioural research scholars have not yet agreed upon universal features of specific emotions, and this serves as a first caution to the usage of FER systems.
