@@ -76,4 +76,37 @@ In order to test the model and the FER-2013 dataset it was trained on, we adapte
 
 expressions. The result is given back as a bar plot. The facial emotion which scores the highest is saved and added to a counter. This counter is finally used to calculate accuracy and misidentification rates.
 
-![emotional_recognition](Bild2.png)
+![emotional_recognition](Bild3.png)
+
+The testing was conducted in a Google Colab. As the Natural Human Face Images for Emotion Recognition dataset provides the pictures as PNGs divided by emotion, we imported them in this format instead of using an excel file. The fact that the data was available as pictures has greatly facilitated the division between minority and non-minority, as comparable excel files only offered as pairs of numbers without a visual equivalent.
+
+
+
+## Results 
+
+Overall, we analysed 5286 pictures, 4618 of them non-minority pictures and 678 of them minority pictures. 358 of all minority pictures were accurate, against 2265 of all non-minority pictures. The accuracy rate2 for minority pictures is therefore 53% and the rate for non-minority pictures is 49% respectively. This contradicts our hypothesis that a facial recognition algorithm trained with the FER-2013 dataset would be less accurate at recognizing minorities´ emotions. Furthermore, the model´s overall accuracy rate (49.5%) is disappointingly low, considering other studies featuring accuracy rates of 70% or even 90% (Debnath, Reza, Rahman, Beheshti, Band & Alinejad, 2022, Song, 2021).
+
+![emotional_recognition](Bild4.png)
+Figure 1 – True positive rates for each emotion 
+
+As shown in figure one, for minorities, the model resulted in higher true positive rates predicting disgust and neutrality3. Meanwhile for anger, fear, sadness and surprise, the algorithm performed better on non-minorities. The differences for each emotion usually do not exceed six percent. For happiness, the difference is even close to zero. Only for fear, the algorithm detects non-minorities 16% better.
+
+![emotional_recognition](Bild5.png)
+Figure 2 – False positive rates of pictures that have been misidentified per emotion
+
+Figure 2 shows as what inaccurately identified emotions were identified instead by using a false positive rate4. When looking for patterns in misidentification, there are no major differences between minority and non-minority, either. For example, the rate of minority pictures misidentified as angry (6.8%) is lower than the rate of non-minority pictures misidentified as angry (7.4%). This contradicts Rhue´s (2018) findings of black individuals´ emotions being perceived as more angrily by Microsoft´s and Face++´s emotional recognition algorithms.
+
+The algorithm seems very good (and eager) at recognizing happiness. It is the emotion with the by far highest true positive rate and the most False Positives (21.2% for minorities and 20.4% for non-minorities). Smiling, especially while showing teeth, might be an easily recognizable feature. Nevertheless, this association between showing teeth and happiness also bears its difficulties. For example, this person (not part of the training nor testing datasets) is unequivocally considered to be happy while he is clearly not
+
+![emotional_recognition](Bild6.png)
+
+
+
+## Discussion/Conclusion
+
+While we have found no trace of racial biases in the program’s accuracy, even finding better results for minorities, the overall accuracy is rather low. These imprecise results invite reflexion concerning the FER-2013 dataset, and provides leads in how we could further improve the program used. We must start by reiterating an important point: according to the overwhelming majority of behavioural research, human emotions are hard to divide, define, and can be reflected in profoundly differing ways on individual faces in function of natural facial structure, cultural practices or norms, and the intensity of the emotion. Thus, this system in its current state, and with the limited amount of training we could procure, is not close to being considered operational in any official capacity.
+
+The only major problem we found concerning racial bias was a certain difficulty from the program in perceiving negative emotions like anger, fear and sadness among minority people, as the true positive rate is lower compared to non-minority people. However, one 2018 study (Rhue, 2018) showed that a sadly common bias was to perceive black basketball players as globally “angrier” than their white counterparts without empirical evidence to prove it. So, there could also be a productive or efficient side effect to the program not reproducing human biases. That said, the unpredictability of this features could present dire consequences in practical uses, hence the necessity for a major improvement in the future.
+
+One solution that might be explored, due to the wide array of emotions and emotional facial signals, could be to limit the algorithm to only differentiate between two emotions, such as happy and sad, or similar opposites. This would work towards fixing the very limited racial bias, as well as improving overall accuracy. An even simpler approach could consist in selecting two emotions with dissimilar facial indicators that both already have low misidentification rates. For example, anger (often characterized by pinched lips or bared teeth, and furrowed brows) and surprise (often illustrated in raised eyebrows and an opened mouth), both baring respectively approximately 7% and 1% rates of misidentification. By prioritizing quality over quantity, in a sense, it could be possible to rise the accuracy of the program above. We could thus try to re-train the algorithm with a simplified objective (detecting a range of two emotions) instead of the current one (detective several).
+
