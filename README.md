@@ -14,4 +14,7 @@ This is our colab
 ### Essay
 This is the text of our study!
 
+### Demo dataset
+This were the pictures used for the classroom demo
+
 ### The other documents are merely pictures in our text or for formatting purposes
