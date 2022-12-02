@@ -11,7 +11,7 @@ The model pre-trained-model we used
 ### racial_biases_in_facial_emotional_recognition
 This is our colab
 
-### Essay
+### index.md
 This is the text of our study!
 
 ### The other documents are merely pictures in our text or for formatting purposes
