@@ -128,7 +128,7 @@ Hence, we are able to identify certain main limitations to our method of choice.
 
 FER datasets, including ours, tend to be somewhat flawed. Certain pictures that are associated with a particular emotion are not really intuitive for humans either. For example, the following picture is considered to depict a happy person:
 
-![emotional_recognition](download.png) ![emotional_recognition](download.png)
+![emotional_recognition](happyness_minority (10).png) ![emotional_recognition](download.jpg)
 
 Figure 1 - dataset picture                                   Figure 2 - meme version
 
