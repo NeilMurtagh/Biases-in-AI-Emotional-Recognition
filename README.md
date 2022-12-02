@@ -149,42 +149,52 @@ In the same vein, Microsoft’s Project Oxford, now called Azure Cognitive Servi
 
 ## Bibliography
 
-Rhue, L. (2018). Racial Influence on Automated Perceptions of Emotions [independent paper]. College Park: University of Maryland. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281765
+### Code and datasets
 
-Sambare, M. (2020). FER-2013. Learn facial expressions from an image. Kaggle. Retrieved from https://www.kaggle.com/datasets/msambare/fer2013
+These were too large to upload as documents on the Github, so we have included the links here:
+- The excel file for the FER-2013 dataset: this link (it´s the document called icml_face_data.csv)
+- The pre-trained faiz model: https://github.com/Faiz99khan/Emotion-Detection/tree/master/Model
+- The separated image datasets for the testing: https://drive.google.com/drive/folders/1cEATDgS_0w_QUwt8PWxem2x2Hw1BLaAS?usp=share_link
+- The colab itself: https://colab.research.google.com/drive/1oy7UpiwGM2f-HwGA9zNWtV_H70Nx0cAc?usp=sharing
 
-Faiz99khan. (n.d.). Emotion-Detection [code]. Retrieved from https://github.com/Faiz99khan/Emotion-Detection/blob/master/Emotion%20Detection.ipynb
+### Sources
 
-Chowdry, A. (2021). Facial-Emotion-Recognition [code]. Retrieved from https://github.com/komalck/FACIAL-EMOTION-RECOGNITION/blob/master/Facial_emotion_recognition.ipynb
+- Rhue, L. (2018). Racial Influence on Automated Perceptions of Emotions [independent paper]. College Park: University of Maryland. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281765
 
-Song, Z. (2021). Facial Expression Emotion Recognition Model Integrating Philosophy and Machine Learning Theory. Frontiers. Retrieved from https://www.frontiersin.org/articles/10.3389/fpsyg.2021.759485/full
+- Sambare, M. (2020). FER-2013. Learn facial expressions from an image. Kaggle. Retrieved from https://www.kaggle.com/datasets/msambare/fer2013
 
-Debnath, T., Reza, M., Rahman, A., Beheshti, A., Band, S. & Alinejad-Rokny, H. (2022). Four-layer ConvNet to facial emotion recognition with minimal epochs and the significance of data diversity. Scientific Reports, 12(6991). Retrieved from https://www.nature.com/articles/s41598-022-11173-0
+- Faiz99khan. (n.d.). Emotion-Detection [code]. Retrieved from https://github.com/Faiz99khan/Emotion-Detection/blob/master/Emotion%20Detection.ipynb
 
-Vincent, J. (2022). Microsoft to retire controversial facial recognition tool that claims to identify emotion. The Verge. Access: https://www.theverge.com/2022/6/21/23177016/microsoft-retires-emotion-recognition-azure-ai-tool-api
+- Chowdry, A. (2021). Facial-Emotion-Recognition [code]. Retrieved from https://github.com/komalck/FACIAL-EMOTION-RECOGNITION/blob/master/Facial_emotion_recognition.ipynb
 
-Wakefield, J. (2021). AI emotion-detection software tested on Uyghurs. BBC. Access: https://www.bbc.com/news/technology-57101248
+- Song, Z. (2021). Facial Expression Emotion Recognition Model Integrating Philosophy and Machine Learning Theory. Frontiers. Retrieved from https://www.frontiersin.org/articles/10.3389/fpsyg.2021.759485/full
 
-Wu, Y. L., Tsai, H. Y., Huang, Y. C., & Chen, B. H. (2018, October). Accurate emotion recognition for driving risk prevention in driver monitoring system. In 2018 IEEE 7th Global Conference on Consumer Electronics (GCCE) (pp. 796-797). IEEE. Access: https://scholar.google.com/scholar_lookup?journal=Proceedings+of+the+2018+IEEE+7th+Global+Conference+on+Consumer+Electronics+(GCCE)&title=Accurate+Emotion+Recognition+for+Driving+Ris
+- Debnath, T., Reza, M., Rahman, A., Beheshti, A., Band, S. & Alinejad-Rokny, H. (2022). Four-layer ConvNet to facial emotion recognition with minimal epochs and the significance of data diversity. Scientific Reports, 12(6991). Retrieved from https://www.nature.com/articles/s41598-022-11173-0
 
-Quintero, L. A. M., Muñoz-Delgado, J., Sánchez-Ferrer, J. C., Fresán, A., Brüne, M., & Arango de Montis, I. (2018). Facial Emotion Recognition and Empathy in Employees at a Juvenile Detention Center. International Journal of Offender Therapy and Comparative Criminology, 62(8), 2430–2446. https://doi.org/10.1177%2F0306624X17721518
+- Vincent, J. (2022). Microsoft to retire controversial facial recognition tool that claims to identify emotion. The Verge. Access: https://www.theverge.com/2022/6/21/23177016/microsoft-retires-emotion-recognition-azure-ai-tool-api
 
-Consoli, D. (2010). A new concept of marketing: The emotional marketing. BRAND. Broad Research in Accounting, Negotiation, and Distribution, 1(1), 52-59. Access: https://scholar.google.com/scholar_lookup?journal=Broad+Res.+Account.+Negot.+Distrib.&title=A+new+concept+of+marketing:+The+emotional+marketing&author=D.+Consoli&volume=1&publication_year=2010&pages=52-59&
+- Wakefield, J. (2021). AI emotion-detection software tested on Uyghurs. BBC. Access: https://www.bbc.com/news/technology-57101248
 
-Lewis, M. B., & Dunn, E. (2017). Instructions to Mimic Improve Facial Emotion Recognition in People with Sub-Clinical Autism Traits. Quarterly Journal of Experimental Psychology, 70(11), 2357–2370. https://doi.org/10.1080%2F17470218.2016.1238950
+- Wu, Y. L., Tsai, H. Y., Huang, Y. C., & Chen, B. H. (2018, October). Accurate emotion recognition for driving risk prevention in driver monitoring system. In 2018 IEEE 7th Global Conference on Consumer Electronics (GCCE) (pp. 796-797). IEEE. Access: https://scholar.google.com/scholar_lookup?journal=Proceedings+of+the+2018+IEEE+7th+Global+Conference+on+Consumer+Electronics+(GCCE)&title=Accurate+Emotion+Recognition+for+Driving+Ris
 
-Kohler, C. G. et al. (2003). Facial Emotion Recognition in Schizophrenia: Intensity Effects and Error Pattern. https://doi.org/10.1176%2Fappi.ajp.160.10.1768
+- Quintero, L. A. M., Muñoz-Delgado, J., Sánchez-Ferrer, J. C., Fresán, A., Brüne, M., & Arango de Montis, I. (2018). Facial Emotion Recognition and Empathy in Employees at a Juvenile Detention Center. International Journal of Offender Therapy and Comparative Criminology, 62(8), 2430–2446. https://doi.org/10.1177%2F0306624X17721518
 
-Ekman, P., Friesen, W. V., O'Sullivan, M., Chan, A., Diacoyanni-Tarlatzis, I., Heider, K., Krause, R., LeCompte, W. A., Pitcairn, T., Ricci-Bitti, P. E., Scherer, K., Tomita, M., & Tzavaras, A. (1987). Universals and cultural differences in the judgments of facial expressions of emotion. Journal of Personality and Social Psychology, 53(4), 712–717. https://doi.org/10.1037%2F0022-3514.53.4.712
+- Consoli, D. (2010). A new concept of marketing: The emotional marketing. BRAND. Broad Research in Accounting, Negotiation, and Distribution, 1(1), 52-59. Access: https://scholar.google.com/scholar_lookup?journal=Broad+Res.+Account.+Negot.+Distrib.&title=A+new+concept+of+marketing:+The+emotional+marketing&author=D.+Consoli&volume=1&publication_year=2010&pages=52-59&
 
-Mehta, D. et al. (2019). Recognition of Emotion Intensities Using Machine Learning Algorithms: A Comparative Study. Access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514572/
+- Lewis, M. B., & Dunn, E. (2017). Instructions to Mimic Improve Facial Emotion Recognition in People with Sub-Clinical Autism Traits. Quarterly Journal of Experimental Psychology, 70(11), 2357–2370. https://doi.org/10.1080%2F17470218.2016.1238950
 
-Raut, N. (2018). Facial Emotion Recognition Using Machine Learning. : https://doi.org/10.31979/etd.w5fs-s8wd. Access: https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1643&context=etd_projects
+- Kohler, C. G. et al. (2003). Facial Emotion Recognition in Schizophrenia: Intensity Effects and Error Pattern. https://doi.org/10.1176%2Fappi.ajp.160.10.1768
 
-Khan, A. R. (2022) Facial Emotion Recognition Using Conventional Machine Learning and Deep Learning Methods: Current Achievements, Analysis and Remaining Challenges. https://doi.org/10.3390/info13060268. Access: https://www.mdpi.com/2078-2489/13/6/268
+- Ekman, P., Friesen, W. V., O'Sullivan, M., Chan, A., Diacoyanni-Tarlatzis, I., Heider, K., Krause, R., LeCompte, W. A., Pitcairn, T., Ricci-Bitti, P. E., Scherer, K., Tomita, M., & Tzavaras, A. (1987). Universals and cultural differences in the judgments of facial expressions of emotion. Journal of Personality and Social Psychology, 53(4), 712–717. https://doi.org/10.1037%2F0022-3514.53.4.712
 
-Khaireddin, Y. and Chen, Z. (2021) Facial Emotion Recognition: State of the Art Performance on FER2013. Access: https://arxiv.org/pdf/2105.03588.pdf
+- Mehta, D. et al. (2019). Recognition of Emotion Intensities Using Machine Learning Algorithms: A Comparative Study. Access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514572/
 
-Vemou, K, et al. (2021) Facial Emotion Recognition. TechDispatch vol 1. Access: https://edps.europa.eu/system/files/2021-05/21-05-26_techdispatch-facial-emotion-recognition_ref_en.pdf
+- Raut, N. (2018). Facial Emotion Recognition Using Machine Learning. : https://doi.org/10.31979/etd.w5fs-s8wd. Access: https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1643&context=etd_projects
 
-Khanzada, A. et al. (2020). Facial Expression Recognition with Deep Learning Improving on the State of the Art and Applying to the Real World. Access: http://cs230.stanford.edu/projects_winter_2020/reports/32610274.pdf
+- Khan, A. R. (2022) Facial Emotion Recognition Using Conventional Machine Learning and Deep Learning Methods: Current Achievements, Analysis and Remaining Challenges. https://doi.org/10.3390/info13060268. Access: https://www.mdpi.com/2078-2489/13/6/268
+
+- Khaireddin, Y. and Chen, Z. (2021) Facial Emotion Recognition: State of the Art Performance on FER2013. Access: https://arxiv.org/pdf/2105.03588.pdf
+
+- Vemou, K, et al. (2021) Facial Emotion Recognition. TechDispatch vol 1. Access: https://edps.europa.eu/system/files/2021-05/21-05-26_techdispatch-facial-emotion-recognition_ref_en.pdf
+
+- Khanzada, A. et al. (2020). Facial Expression Recognition with Deep Learning Improving on the State of the Art and Applying to the Real World. Access: http://cs230.stanford.edu/projects_winter_2020/reports/32610274.pdf
