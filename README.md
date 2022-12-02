@@ -112,7 +112,8 @@ One solution that might be explored, due to the wide array of emotions and emoti
 
 ![emotional_recognition](anger (888).png) ![emotional_recognition](images (100)_face.png)
 
-Figure 1 - anger                                              Figure 2 - Surprise
+Figure 1 - anger                                              
+Figure 2 - Surprise
 
 To return to our original hypothesis, it clearly seems there is no bias against minorities when using this algorithm to detect emotions, and the results might actually be skewed in their favour. We can emit several hypotheses to explain this. The first is that the reason may lie with the dataset. While
 
@@ -122,6 +123,7 @@ We could provide a second hypotheses, this time concerning the inferior performa
 
 ![emotional_recognition](images - 2020-11-06T201659.134_face.png)
 ![emotional_recognition](images - 2020-11-06T201802.655_face.png)
+
 Two minority pictures, showing only the side of the face
 
 Hence, we are able to identify certain main limitations to our method of choice. The main problem we have found in the use of our program is its low accuracy. These results place the program, at least in its current situation of training specifically applied to the FER-2013 dataset, remain far under any kind of confidence interval. Another aspect, as mentioned, is the required level of facial expression that is necessary to pick up any emotion at all. Emotional outbursts aside, most people don’t always sport dramatically exaggerated facial expressions, which as of now are the only indicator for the program that someone is feeling anything at all. Of course, we could imagine a future in which a far more trained deep learning algorithm eventually recognized emotional patterns to a lesser extent, thus converting subtle signs in someone’s face into their true feelings. Unfortunately, the human brain is still more efficient than any program in terms of pattern recognition for emotion. According to the American Center for Strategic and International Studies in 2020, certain algorithms can reach over 99% accuracy in facial recognition, at least in the ideal conditions of profile pictures or passport photos, where the face is clearly visible. With enough training, and a dataset providing these ideal conditions, we could imagine a far more accurate program for emotional recognition as well.
@@ -130,7 +132,8 @@ FER datasets, including ours, tend to be somewhat flawed. Certain pictures that 
 
 ![emotional_recognition](happyness_minority (10).png) ![emotional_recognition](download.jpg)
 
-Figure 1 - dataset picture                                   Figure 2 - meme version
+Figure 1 - dataset picture                                   
+Figure 2 - meme version
 
 However, it is one of the most famous internet memes, or “reaction picture” used to express confusion. This is probably due to the man’s slightly raised eyebrows, and slightly tilted head, as if in disbelief. The meme version of this image is often accompanied by question marks to accentuate the idea of confusion. The human element of recognizing emotion is particularly important here, because it shows that while an AI will identify this man as happy in both cases, due to his smile, the slight head-tilt, especially accompanied by question marks will immediately mark him as confused to the human viewer.
 
