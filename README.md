@@ -119,3 +119,4 @@ this dataset is large, it might be perfectly even in distribution between minori
 
 We could provide a second hypotheses, this time concerning the inferior performance on minorities for a select set of emotions. It could be due to imperfections in the original photo, that make it harder to read for the program (for example items obscuring parts of the face, or an angle that hides a part of it). In these cases, the aforementioned recognitions patterns of a human face cannot be recognized, as they rely on detecting front-facing facial features (lips, eyes, nose, etc).
 
+images - 2020-11-06T201659.134_face.png
