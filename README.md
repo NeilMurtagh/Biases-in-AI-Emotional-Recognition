@@ -119,4 +119,67 @@ this dataset is large, it might be perfectly even in distribution between minori
 
 We could provide a second hypotheses, this time concerning the inferior performance on minorities for a select set of emotions. It could be due to imperfections in the original photo, that make it harder to read for the program (for example items obscuring parts of the face, or an angle that hides a part of it). In these cases, the aforementioned recognitions patterns of a human face cannot be recognized, as they rely on detecting front-facing facial features (lips, eyes, nose, etc).
 
-images - 2020-11-06T201659.134_face.png
+![emotional_recognition](images - 2020-11-06T201659.134_face.png)
+![emotional_recognition](images - 2020-11-06T201802.655_face.png)
+Two minority pictures, showing only the side of the face
+
+Hence, we are able to identify certain main limitations to our method of choice. The main problem we have found in the use of our program is its low accuracy. These results place the program, at least in its current situation of training specifically applied to the FER-2013 dataset, remain far under any kind of confidence interval. Another aspect, as mentioned, is the required level of facial expression that is necessary to pick up any emotion at all. Emotional outbursts aside, most people don’t always sport dramatically exaggerated facial expressions, which as of now are the only indicator for the program that someone is feeling anything at all. Of course, we could imagine a future in which a far more trained deep learning algorithm eventually recognized emotional patterns to a lesser extent, thus converting subtle signs in someone’s face into their true feelings. Unfortunately, the human brain is still more efficient than any program in terms of pattern recognition for emotion. According to the American Center for Strategic and International Studies in 2020, certain algorithms can reach over 99% accuracy in facial recognition, at least in the ideal conditions of profile pictures or passport photos, where the face is clearly visible. With enough training, and a dataset providing these ideal conditions, we could imagine a far more accurate program for emotional recognition as well.
+
+FER datasets, including ours, tend to be somewhat flawed. Certain pictures that are associated with a particular emotion are not really intuitive for humans either. For example, the following picture is considered to depict a happy person:
+
+![emotional_recognition](download.png) ![emotional_recognition](download.png)
+Figure 1 - dataset picture                                             Figure 2 - meme bersion
+
+However, it is one of the most famous internet memes, or “reaction picture” used to express confusion. This is probably due to the man’s slightly raised eyebrows, and slightly tilted head, as if in disbelief. The meme version of this image is often accompanied by question marks to accentuate the idea of confusion. The human element of recognizing emotion is particularly important here, because it shows that while an AI will identify this man as happy in both cases, due to his smile, the slight head-tilt, especially accompanied by question marks will immediately mark him as confused to the human viewer.
+
+Mistakes might also have been made when sorting the testing dataset between minority and non-minority pictures. For example, it was sometimes difficult to determine if a person belongs to an ethnic minority. This was especially the case when pictures showed exaggerated facial expressions. In case of doubt, our procedure was to rather not classify a person as a minority. This might have led to minority pictures being more clearly recognizable than non-minority pictures.
+
+Finally, to conclude the question of racial bias, the simplest option would be to conduct more studies, considering our own is a single one among many. Repetitions are needed with more testing data and other models…
+
+Furthermore, we have only investigated ethnic minorities. It might be interesting to specifically investigate biases for other groups, for example women, children, elderly or people with down-syndrome. Creating an original dataset where “race” is clear and based on self-identification.
+
+In the same vein, Microsoft’s Project Oxford, now called Azure Cognitive Services, took its emotional recognition function offline earlier this year. Though it would be very interesting to investigate the performance of this tool, this suggests that Microsoft has developed awareness of Machine Learning´s possible (discriminatory) weaknesses5. (https://azure.microsoft.com/en-us/products/cognitive-services/#overview).
+
+
+
+## Bibliography
+
+Rhue, L. (2018). Racial Influence on Automated Perceptions of Emotions [independent paper]. College Park: University of Maryland. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281765
+
+Sambare, M. (2020). FER-2013. Learn facial expressions from an image. Kaggle. Retrieved from https://www.kaggle.com/datasets/msambare/fer2013
+
+Faiz99khan. (n.d.). Emotion-Detection [code]. Retrieved from https://github.com/Faiz99khan/Emotion-Detection/blob/master/Emotion%20Detection.ipynb
+
+Chowdry, A. (2021). Facial-Emotion-Recognition [code]. Retrieved from https://github.com/komalck/FACIAL-EMOTION-RECOGNITION/blob/master/Facial_emotion_recognition.ipynb
+
+Song, Z. (2021). Facial Expression Emotion Recognition Model Integrating Philosophy and Machine Learning Theory. Frontiers. Retrieved from https://www.frontiersin.org/articles/10.3389/fpsyg.2021.759485/full
+
+Debnath, T., Reza, M., Rahman, A., Beheshti, A., Band, S. & Alinejad-Rokny, H. (2022). Four-layer ConvNet to facial emotion recognition with minimal epochs and the significance of data diversity. Scientific Reports, 12(6991). Retrieved from https://www.nature.com/articles/s41598-022-11173-0
+
+Vincent, J. (2022). Microsoft to retire controversial facial recognition tool that claims to identify emotion. The Verge. Access: https://www.theverge.com/2022/6/21/23177016/microsoft-retires-emotion-recognition-azure-ai-tool-api
+
+Wakefield, J. (2021). AI emotion-detection software tested on Uyghurs. BBC. Access: https://www.bbc.com/news/technology-57101248
+
+Wu, Y. L., Tsai, H. Y., Huang, Y. C., & Chen, B. H. (2018, October). Accurate emotion recognition for driving risk prevention in driver monitoring system. In 2018 IEEE 7th Global Conference on Consumer Electronics (GCCE) (pp. 796-797). IEEE. Access: https://scholar.google.com/scholar_lookup?journal=Proceedings+of+the+2018+IEEE+7th+Global+Conference+on+Consumer+Electronics+(GCCE)&title=Accurate+Emotion+Recognition+for+Driving+Ris
+
+Quintero, L. A. M., Muñoz-Delgado, J., Sánchez-Ferrer, J. C., Fresán, A., Brüne, M., & Arango de Montis, I. (2018). Facial Emotion Recognition and Empathy in Employees at a Juvenile Detention Center. International Journal of Offender Therapy and Comparative Criminology, 62(8), 2430–2446. https://doi.org/10.1177%2F0306624X17721518
+
+Consoli, D. (2010). A new concept of marketing: The emotional marketing. BRAND. Broad Research in Accounting, Negotiation, and Distribution, 1(1), 52-59. Access: https://scholar.google.com/scholar_lookup?journal=Broad+Res.+Account.+Negot.+Distrib.&title=A+new+concept+of+marketing:+The+emotional+marketing&author=D.+Consoli&volume=1&publication_year=2010&pages=52-59&
+
+Lewis, M. B., & Dunn, E. (2017). Instructions to Mimic Improve Facial Emotion Recognition in People with Sub-Clinical Autism Traits. Quarterly Journal of Experimental Psychology, 70(11), 2357–2370. https://doi.org/10.1080%2F17470218.2016.1238950
+
+Kohler, C. G. et al. (2003). Facial Emotion Recognition in Schizophrenia: Intensity Effects and Error Pattern. https://doi.org/10.1176%2Fappi.ajp.160.10.1768
+
+Ekman, P., Friesen, W. V., O'Sullivan, M., Chan, A., Diacoyanni-Tarlatzis, I., Heider, K., Krause, R., LeCompte, W. A., Pitcairn, T., Ricci-Bitti, P. E., Scherer, K., Tomita, M., & Tzavaras, A. (1987). Universals and cultural differences in the judgments of facial expressions of emotion. Journal of Personality and Social Psychology, 53(4), 712–717. https://doi.org/10.1037%2F0022-3514.53.4.712
+
+Mehta, D. et al. (2019). Recognition of Emotion Intensities Using Machine Learning Algorithms: A Comparative Study. Access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514572/
+
+Raut, N. (2018). Facial Emotion Recognition Using Machine Learning. : https://doi.org/10.31979/etd.w5fs-s8wd. Access: https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1643&context=etd_projects
+
+Khan, A. R. (2022) Facial Emotion Recognition Using Conventional Machine Learning and Deep Learning Methods: Current Achievements, Analysis and Remaining Challenges. https://doi.org/10.3390/info13060268. Access: https://www.mdpi.com/2078-2489/13/6/268
+
+Khaireddin, Y. and Chen, Z. (2021) Facial Emotion Recognition: State of the Art Performance on FER2013. Access: https://arxiv.org/pdf/2105.03588.pdf
+
+Vemou, K, et al. (2021) Facial Emotion Recognition. TechDispatch vol 1. Access: https://edps.europa.eu/system/files/2021-05/21-05-26_techdispatch-facial-emotion-recognition_ref_en.pdf
+
+Khanzada, A. et al. (2020). Facial Expression Recognition with Deep Learning Improving on the State of the Art and Applying to the Real World. Access: http://cs230.stanford.edu/projects_winter_2020/reports/32610274.pdf
