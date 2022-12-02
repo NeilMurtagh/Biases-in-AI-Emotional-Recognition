@@ -14,17 +14,4 @@ This is our colab
 ##Essay
 This is the text of our study![grafik](https://user-images.githubusercontent.com/119698574/205370917-516aa51d-1fa2-4f1b-a2af-076cc1589a2a.png)
 
-##Those are merely pictures in our text or for formatting purposes
-Bild2.png
-Bild3.png
-Bild4.png
-Bild5.png
-Bild6.png
-anger (888).png
-download.jpg
-happyness_minority (10).png
-images (100)_face.png
-images (44)_face.png
-images - 2020-11-06T201659.134_face.png
-_config.yml
-images - 2020-11-06T201802.655_face.png![grafik](https://user-images.githubusercontent.com/119698574/205371294-dac1f157-f108-4bc2-8311-1c17c5413207.png)
+The other documents are merely pictures in our text or for formatting purposes
