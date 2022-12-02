@@ -12,7 +12,7 @@ Algorithmic facial emotional recognition has been under scrutiny for some time. 
 
 ## Introduction
 
-The importance of facial emotional recognition (FER) is well-acknowledged in fundamental human communication. Machine learning algorithms can be trained and tested on suitable datasets to carry out This process of recognizing emotions. FER technology belongs to the multidisciplinary family of “affective computing” that is often attributed towards the advent of Artificial Intelligence. Cameras and allied technological changes have provided impetus for these algorithms to become crucial.
+The importance of facial emotional recognition (FER) is well-acknowledged in fundamental human communication. Machine learning algorithms can be trained and tested on suitable datasets to carry out this process of recognizing emotions. FER technology belongs to the multidisciplinary family of “affective computing” that is often attributed towards the advent of Artificial Intelligence. Cameras and allied technological changes have provided impetus for these algorithms to become crucial.
 
 FER technology seeks to achieve categorization of emotions from images. Deep learning allows notable accuracy in this task. The technology is used in applications such as robotics, medicine, surveillance for safety from crime and road accidents, marketing, etc (Khanzada et al. 2020). Vemou et al. broadly summarise uses as follows:
 · Provision of custom services
@@ -152,10 +152,10 @@ In the same vein, Microsoft’s Project Oxford, now called Azure Cognitive Servi
 ### Code and datasets
 
 These were too large to upload as documents on the Github, so we have included the links here:
-- The excel file for the FER-2013 dataset: this link (it´s the document called icml_face_data.csv)
-- The pre-trained faiz model: https://github.com/Faiz99khan/Emotion-Detection/tree/master/Model
-- The separated image datasets for the testing: https://drive.google.com/drive/folders/1cEATDgS_0w_QUwt8PWxem2x2Hw1BLaAS?usp=share_link
-- The colab itself: https://colab.research.google.com/drive/1oy7UpiwGM2f-HwGA9zNWtV_H70Nx0cAc?usp=sharing
+- The excel file for the FER-2013 dataset: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv (see icml_face_data.csv)
+- The pre-trained model by Faiz99khan: https://github.com/Faiz99khan/Emotion-Detection/tree/master/Model
+- The image datasets for the testing sorted by minority/non-minority: https://drive.google.com/drive/folders/1cEATDgS_0w_QUwt8PWxem2x2Hw1BLaAS?usp=share_link
+- The colab including our code: https://colab.research.google.com/drive/1oy7UpiwGM2f-HwGA9zNWtV_H70Nx0cAc?usp=sharing
 
 ### Sources
 
