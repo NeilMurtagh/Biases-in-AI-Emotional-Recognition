@@ -12,6 +12,6 @@ The model pre-trained-model we used
 This is our colab
 
 ##Essay
-This is the text of our study![grafik](https://user-images.githubusercontent.com/119698574/205370917-516aa51d-1fa2-4f1b-a2af-076cc1589a2a.png)
+This is the text of our study!
 
-The other documents are merely pictures in our text or for formatting purposes
+##The other documents are merely pictures in our text or for formatting purposes
