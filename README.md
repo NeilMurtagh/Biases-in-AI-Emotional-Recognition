@@ -111,6 +111,7 @@ The only major problem we found concerning racial bias was a certain difficulty 
 One solution that might be explored, due to the wide array of emotions and emotional facial signals, could be to limit the algorithm to only differentiate between two emotions, such as happy and sad, or similar opposites. This would work towards fixing the very limited racial bias, as well as improving overall accuracy. An even simpler approach could consist in selecting two emotions with dissimilar facial indicators that both already have low misidentification rates. For example, anger (often characterized by pinched lips or bared teeth, and furrowed brows) and surprise (often illustrated in raised eyebrows and an opened mouth), both baring respectively approximately 7% and 1% rates of misidentification. By prioritizing quality over quantity, in a sense, it could be possible to rise the accuracy of the program above. We could thus try to re-train the algorithm with a simplified objective (detecting a range of two emotions) instead of the current one (detective several).
 
 ![emotional_recognition](anger (888).png)
+
 ![emotional_recognition](images (100)_face.png)
 
 
