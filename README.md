@@ -12,7 +12,7 @@ Algorithmic facial emotional recognition has been under scrutiny for some time. 
 
 ## Introduction
 
-The importance of facial emotional recognition (FER) is well-acknowledged in fundamental human communication. Machine learning algorithms can be trained and tested on suitable datasets to carry out the process of recognizing emotions. FER technology belongs to the multidisciplinary family of “affective computing” that is often attributed towards the advent of Artificial Intelligence. Cameras and allied technological changes have provided impetus for these algorithms to become crucial.
+The importance of facial emotional recognition (FER) is well-acknowledged in fundamental human communication. Machine learning algorithms can be trained and tested on suitable datasets to carry out This process of recognizing emotions. FER technology belongs to the multidisciplinary family of “affective computing” that is often attributed towards the advent of Artificial Intelligence. Cameras and allied technological changes have provided impetus for these algorithms to become crucial.
 
 FER technology seeks to achieve categorization of emotions from images. Deep learning allows notable accuracy in this task. The technology is used in applications such as robotics, medicine, surveillance for safety from crime and road accidents, marketing, etc (Khanzada et al. 2020). Vemou et al. broadly summarise uses as follows:
 · Provision of custom services
