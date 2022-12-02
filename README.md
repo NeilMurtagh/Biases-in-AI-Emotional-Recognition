@@ -111,7 +111,8 @@ The only major problem we found concerning racial bias was a certain difficulty 
 One solution that might be explored, due to the wide array of emotions and emotional facial signals, could be to limit the algorithm to only differentiate between two emotions, such as happy and sad, or similar opposites. This would work towards fixing the very limited racial bias, as well as improving overall accuracy. An even simpler approach could consist in selecting two emotions with dissimilar facial indicators that both already have low misidentification rates. For example, anger (often characterized by pinched lips or bared teeth, and furrowed brows) and surprise (often illustrated in raised eyebrows and an opened mouth), both baring respectively approximately 7% and 1% rates of misidentification. By prioritizing quality over quantity, in a sense, it could be possible to rise the accuracy of the program above. We could thus try to re-train the algorithm with a simplified objective (detecting a range of two emotions) instead of the current one (detective several).
 
 ![emotional_recognition](anger (888).png) ![emotional_recognition](images (100)_face.png)
-Figure 1 - anger                                              Figure 2 - Surprise
+
+Figure 1 - anger                                   Figure 2 - Surprise
 
 To return to our original hypothesis, it clearly seems there is no bias against minorities when using this algorithm to detect emotions, and the results might actually be skewed in their favour. We can emit several hypotheses to explain this. The first is that the reason may lie with the dataset. While
 
@@ -128,7 +129,7 @@ Hence, we are able to identify certain main limitations to our method of choice.
 FER datasets, including ours, tend to be somewhat flawed. Certain pictures that are associated with a particular emotion are not really intuitive for humans either. For example, the following picture is considered to depict a happy person:
 
 ![emotional_recognition](download.png) ![emotional_recognition](download.png)
-Figure 1 - dataset picture                                             Figure 2 - meme bersion
+Figure 1 - dataset picture                                   Figure 2 - meme version
 
 However, it is one of the most famous internet memes, or “reaction picture” used to express confusion. This is probably due to the man’s slightly raised eyebrows, and slightly tilted head, as if in disbelief. The meme version of this image is often accompanied by question marks to accentuate the idea of confusion. The human element of recognizing emotion is particularly important here, because it shows that while an AI will identify this man as happy in both cases, due to his smile, the slight head-tilt, especially accompanied by question marks will immediately mark him as confused to the human viewer.
 
